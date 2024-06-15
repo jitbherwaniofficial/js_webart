@@ -91,6 +91,7 @@ li {
     color: var(--font-color);
     font-weight: lighter;
     font-family: "Merienda", cursive;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 4px rgba(0,0,0,0.8);
 }
 
 .j {
@@ -100,8 +101,8 @@ li {
     position: absolute;
     font-size: 6vw;
     text-transform: uppercase;
-    /* color:var(--brand-color); */
-    color: rgba(255, 104, 18, 0.8);
+    color:var(--brand-color);
+    /* color: rgba(255, 104, 18, 0.8); */
     rotate: 10deg;
     font-weight: 500;
     z-index: -1;
@@ -115,8 +116,8 @@ li {
     /* bottom: -0.5vw; */
     font-size: 6vw;
     text-transform: uppercase;
-    /* color:var(--brand-color); */
-    color: rgba(255, 104, 18, 0.8);;
+    color:var(--brand-color);
+    /* color: rgba(255, 104, 18, 0.8);; */
     rotate: -20deg;
     font-weight: 500;
     z-index: -1;
