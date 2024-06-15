@@ -85,35 +85,42 @@ li {
 }
 
 .logo {
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-transform: lowercase;
     letter-spacing: 0.5vw;
     color: var(--font-color);
     font-weight: lighter;
+    font-family: "Merienda", cursive;
 }
 
 .j {
     top: 0.5vw;
+    /* top: -0.5vw; */
     left: 2%;
     position: absolute;
     font-size: 6vw;
     text-transform: uppercase;
-    color:var(--brand-color);
+    /* color:var(--brand-color); */
+    color: rgba(255, 104, 18, 0.8);
     rotate: 10deg;
     font-weight: 500;
     z-index: -1;
+    /* font-family: "Merienda", cursive; */
 }
 
 .s {
     position: absolute;
     left: 3.5vw;
     bottom: 0.5vw;
+    /* bottom: -0.5vw; */
     font-size: 6vw;
     text-transform: uppercase;
-    color:var(--brand-color);
+    /* color:var(--brand-color); */
+    color: rgba(255, 104, 18, 0.8);;
     rotate: -20deg;
     font-weight: 500;
     z-index: -1;
+    /* font-family: "Merienda", cursive; */
 }
 
 .navbar {
@@ -339,6 +346,10 @@ li {
     color: var(--brand-color);
     display: inline-block;
     transition: 0.5s;
+}
+
+.work_redirect_btn:hover {
+    color: var(--brand-color);
 }
 
 .work_redirect_btn:hover .work_arr {
