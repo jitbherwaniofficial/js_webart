@@ -1,0 +1,354 @@
+/* ORBITRON FONT */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+/* font-family: "Orbitron", sans-serif; */
+
+:root {
+    --background-color:#0a0a0a;
+    --font-color : #ffffff;
+    /* --brand-color:#00fa9a; */
+    --brand-color : #ef0d33;
+    --gray-color : #888888;
+    --light-green:#e5f5ed;
+    --light-gray:#f6f6f6;
+    --dark-gray:#2e2e2e;
+    --blue-color: #1e90ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+
+::-webkit-scrollbar {
+    width: 0.3rem;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--brand-color);
+    border-radius: 0.5rem;
+}
+
+
+a {
+    display: inline-block;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+/* HEADER STARTS ************************************************** */
+.header {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_wrapper {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 0.5px solid var(--dark-gray);
+}
+
+.logo {
+    font-size: 1.5vw;
+    text-transform: lowercase;
+    letter-spacing: 0.5vw;
+    color: var(--font-color);
+    font-weight: lighter;
+}
+
+.j {
+    top: 0.5vw;
+    left: 2%;
+    position: absolute;
+    font-size: 6vw;
+    text-transform: uppercase;
+    color:var(--brand-color);
+    rotate: 10deg;
+    font-weight: 500;
+    z-index: -1;
+}
+
+.s {
+    position: absolute;
+    left: 3.5vw;
+    bottom: 0.5vw;
+    font-size: 6vw;
+    text-transform: uppercase;
+    color:var(--brand-color);
+    rotate: -20deg;
+    font-weight: 500;
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li .nav_link {
+    padding: 1vw 2vw;
+    font-size: 1.12vw;
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: var(--brand-color);
+}
+
+.company_links {
+    position: relative;
+}
+.insights_link {
+    position: relative;
+}
+.services_links {
+    position: relative;
+}
+
+.service_dropdown {
+    width: 60vw;
+    background-color: var(--dark-gray);
+    position: absolute;
+    left: -22.5vw;
+    display: none;
+    flex-wrap: wrap;
+    transition: 0.5s ease;
+    padding: 2vw;
+    gap: 1vw;
+}
+
+.gd {
+    width: 30%;
+}
+.wd {
+    width: 40%;
+}
+.print {
+    width: 100%;
+}
+.seo {
+    width: 26%;
+}
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: var(--brand-color);
+    color: var(--font-color);
+}
+
+.service_drop_link {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.2vw;
+    padding: 1vw 0;
+    font-weight: bold;
+}
+
+.service_drop_link:hover .icon_container {
+    color: var(--brand-color);
+    background-color: var(--font-color);
+}
+
+.sub_links_container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-top: 0.5px solid var(--font-color);
+    padding-top: 1vw;
+}
+
+.sub_links {
+    font-size: 1vw;
+    padding: 0.25vw 0;
+}
+
+.print_container {display: flex;border-top: 0.5px solid var(--font-color);padding-top: 1vw;}
+.print_options_container {width: calc(100% /5);}
+.print_links {font-size: 1vw;display: block;padding: 0.25vw 0;}
+
+.dropdown {
+    width: 16vw;
+    background-color: var(--dark-gray);
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition: 0.5s ease;
+}
+
+.dropdown .dropdown_link {
+    padding: 1vw 3vw;
+    transition: 0.5s ease;
+}
+
+.dropdown .dropdown_link:hover {
+    background-color: var(--brand-color);
+    color: var(--font-color);
+}
+
+.company_arr {
+    display: inline-block;
+    transition: 0.5s ease;
+}
+.insights_arr {
+    display: inline-block;
+    transition: 0.5s ease;
+}
+.services_arr {
+    display: inline-block;
+    transition: 0.5s ease;
+}
+
+.company_links:hover .company_arr {
+    rotate: 180deg;
+}
+.insights_links:hover .insights_arr {
+    rotate: 180deg;
+}
+.services_links:hover .services_arr {
+    rotate: 180deg;
+}
+
+.company_links:hover .dropdown {
+    display: flex;
+}
+.insights_links:hover .dropdown {
+    display: flex;
+}
+.services_links:hover .service_dropdown {
+    display: flex;
+}
+
+.contact {
+    border: 2px solid var(--brand-color);
+    border-radius: 0.5vw;
+    position: relative;
+    overflow: hidden;
+    color: var(--font-color);
+}
+
+.contact::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1vw;
+    color: var(--font-color);
+    background-color: var(--brand-color);
+    z-index: -1;
+    transform: translateX(-100%);
+    transition: 0.3s ease;
+}
+
+.contact:hover::before {
+    transform: translateX(0%);
+}
+
+.contact:hover a{
+ color: var(--font-color) !important;
+}
+
+/* HEADER ENDS **************************************************** */
+
+/* MAIN *********************************************************** */
+
+/* HERO ******************************************************* */
+.hero_section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.hero_title {
+    width: 100%;
+    font-size: 4vw;
+    line-height: 1.3;
+}
+.hero_title span {color: var(--brand-color);}
+.hero_para {
+    width: 90%;
+    font-size: 1.7vw;
+    line-height: 1.5;
+    color: var(--light-gray);
+}
+
+.work_redirect_container {
+    font-size: 1.3vw;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+    padding-top: 2.5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.work_arr {
+    font-size: 2vw;
+    color: var(--blue-color);
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.work_redirect_btn:hover .work_arr {
+    transform: translate(0.7vw, -0.7vw);
+}
+
+.hero_right {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.hero_right img {
+    width: 100%;
+}
+/* HERO ******************************************************* */
+
+/* MAIN *********************************************************** */
+
+
