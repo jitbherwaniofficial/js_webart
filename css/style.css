@@ -3,16 +3,19 @@
 /* font-family: "Orbitron", sans-serif; */
 
 :root {
-    --background-color:#0a0a0a;
+    /* --background-color:#0a0a0a; */
+    --background-color:#000011;
     --font-color : #ffffff;
     /* --brand-color:#00fa9a; */
     --brand-color : #ef0d33;
+    --brand-secondary-color: #bf0a29;
+    --brand-third-color: #f23d5c;
     --gray-color : #888888;
     --light-green:#e5f5ed;
     --light-gray:#f6f6f6;
     --dark-gray:#2e2e2e;
     /* --blue-color: #1e90ff; */
-    --blue-color: #ef0d33;
+    --blue-color: #87ff65;
 }
 
 * {
@@ -330,7 +333,7 @@ li {
 
 .work_arr {
     font-size: 2vw;
-    color: var(--blue-color);
+    color: var(--brand-color);
     display: inline-block;
     transition: 0.5s;
 }
