@@ -20,7 +20,7 @@
     /* --blue-color: #1e90ff; */
     --green-color: #87ff65;
     /* --dark_brown-color: #764248; */
-    --dark_brown-color: #afeeee;
+    --blue-color: #afeeee;
 }
 
 * {
@@ -321,9 +321,6 @@ li {
     gap: 1vw;
 }
 
-.hero_title .brand{
-    color: var(--dark_brown-color);
-}
 
 .hero_title {
     width: 100%;
@@ -348,7 +345,7 @@ li {
     align-items: center;
 }
 
-.work_redirect_btn {color: var(--brand-color);}
+.work_redirect_btn {color: var(--font-color);}
 .work_arr {
     font-size: 2vw;
     color: var(--brand-color);
@@ -357,7 +354,7 @@ li {
 }
 
 .work_redirect_btn:hover {
-    color: var(--dark_brown-color);
+    color: var(--brand-color);
 }
 
 .work_redirect_btn:hover .work_arr {
@@ -375,7 +372,7 @@ li {
 }
 
 
-.brown {fill: var(--dark_brown-color);}
+.brown {fill: var(--blue-color);}
 
 @keyframes manfstline {
     0% {opacity: 1;}
