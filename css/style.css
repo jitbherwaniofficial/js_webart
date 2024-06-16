@@ -88,6 +88,7 @@ li {
 }
 
 .logo {
+    position: relative;
     font-size: 2vw;
     text-transform: lowercase;
     letter-spacing: 0.5vw;
@@ -95,6 +96,7 @@ li {
     font-weight: lighter;
     font-family: "Merienda", cursive;
     text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 4px rgba(0,0,0,0.8);
+    z-index: 3;
 }
 
 .j {
@@ -108,7 +110,7 @@ li {
     /* color: rgba(255, 104, 18, 0.8); */
     rotate: 10deg;
     font-weight: 500;
-    z-index: -1;
+    z-index: 2;
     /* font-family: "Merienda", cursive; */
 }
 
@@ -123,7 +125,7 @@ li {
     /* color: rgba(255, 104, 18, 0.8);; */
     rotate: -20deg;
     font-weight: 500;
-    z-index: -1;
+    z-index: 2;
     /* font-family: "Merienda", cursive; */
 }
 
@@ -152,15 +154,16 @@ li {
 }
 
 .service_dropdown {
-    width: 87vw;
+    width: 90vw;
     background-color: var(--dark-gray);
     position: absolute;
-    left: -35vw;
+    left: -37.5vw;
     display: none;
+    justify-content: space-between;
     flex-wrap: wrap;
     transition: 0.5s ease;
     padding: 2vw;
-    gap: 2vw;
+    z-index: 0;
 }
 
 .gd {
@@ -190,14 +193,18 @@ li {
 
 .service_drop_link {
     width: 100%;
+    margin: 0 auto;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 1vw;
-    font-size: 1.2vw;
-    padding: 1vw 0;
+    font-size: 1.25vw;
     font-weight: bold;
+    padding: 1vw 0;
     transition: 0.5s;
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--font-color);
 }
 
 .service_drop_link:hover .icon_container {
@@ -214,13 +221,14 @@ li {
 }
 
 .sub_links {
-    font-size: 1.1vw;
-    padding: 0.3vw 0;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    padding: 0.5vw 0;
 }
 
 .print_container {display: flex;border-top: 0.5px solid var(--font-color);padding-top: 1vw;}
 .print_options_container {width: calc(100% /5);}
-.print_links {font-size: 1vw;display: block;padding: 0.25vw 0;}
+.print_links {font-size: 1vw;display: block;padding: 0.5vw 0;letter-spacing: 0.1vw;}
 
 .dropdown {
     width: 16vw;
