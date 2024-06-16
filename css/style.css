@@ -18,7 +18,9 @@
     --light-gray:#f6f6f6;
     --dark-gray:#2e2e2e;
     /* --blue-color: #1e90ff; */
-    --blue-color: #87ff65;
+    --green-color: #87ff65;
+    /* --dark_brown-color: #764248; */
+    --dark_brown-color: #afeeee;
 }
 
 * {
@@ -319,6 +321,10 @@ li {
     gap: 1vw;
 }
 
+.hero_title .brand{
+    color: var(--dark_brown-color);
+}
+
 .hero_title {
     width: 100%;
     font-size: 4vw;
@@ -342,6 +348,7 @@ li {
     align-items: center;
 }
 
+.work_redirect_btn {color: var(--brand-color);}
 .work_arr {
     font-size: 2vw;
     color: var(--brand-color);
@@ -350,7 +357,7 @@ li {
 }
 
 .work_redirect_btn:hover {
-    color: var(--brand-color);
+    color: var(--dark_brown-color);
 }
 
 .work_redirect_btn:hover .work_arr {
@@ -367,11 +374,9 @@ li {
     width: 100%;
 }
 
-/* svg animation */
-/* .lines{
-    transform-box: fill-box;
-    animation: manfstline 1.5s infinite ;      
-} */
+
+.brown {fill: var(--dark_brown-color);}
+
 @keyframes manfstline {
     0% {opacity: 1;}
     50% {opacity: 0;}
@@ -386,11 +391,6 @@ li {
     transform: translateX(4vw);
 }
 
-/* .move_girl_line{
-    animation: movegirl 5s infinite;
-    transform-box: fill-box;
-
-} */
 
 .move_girl_line{
     transform-box: fill-box;
@@ -440,17 +440,6 @@ li {
     transform: translateX(1vw);
     animation: moveBody 5s infinite;
 }
-/* @keyframes moveBody{
-    0%{
-        transform: rotateY(0deg);
-    }
-    50%{
-        transform: rotateY(8.2deg) skewY(8.2deg) translateX(1.5rem);
-    }
-  100%{
-    transform: rotateY(0deg);
-  }
-} */
 
 @keyframes moveBody {
     0%{transform: translateX(1vw);}
@@ -460,7 +449,7 @@ li {
 
 .arrow_up {
     transform-box: fill-box;
-    animation: scaleArrow 3.5s  infinite;
+    animation: scaleArrow 5s  infinite;
     transform-origin: bottom;
 }
 @keyframes scaleArrow {
@@ -471,7 +460,7 @@ li {
 
 .arrow_down {
     transform-box: fill-box;
-    animation: scaleArrow 3.5s infinite;
+    animation: scaleArrow 5s infinite;
     transform-origin: up;
 }
 @keyframes scaleArrow {
