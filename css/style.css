@@ -476,6 +476,7 @@ li {
     animation: movegirl 5s infinite;
 }
 
+
 @keyframes movegirl {
     0% {
         transform: translateX(-2vw);
@@ -683,59 +684,58 @@ li {
 /* HERO ******************************************************* */
 
 /* FEATURED SECTION */
-.featured_work_section {
+.our_work_section {
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 5vw 0;
+    padding: 10vw 0;
 }
 
-.featured_number {
-    font-size: 10vw;
-    color: var(--background-color);
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: var(--font-color);
-}
 
 .jswebart_work {
+    position: relative;
+    left: 20%;
+    width: 18vw;
+    height: 45vh;
+    background-color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
-    height: 60vh;
-    width: 22vw;
+    transform: skew(-30deg, 12deg);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255,0.4), 6px 6px 6px rgba(255, 255, 255,0.3), 10px 10px 10px rgba(255, 255, 255,0.2);
+    
+}
+
+.work_logo {
+    color: var(--fony-color);
+    font-family: "Merienda", cursive;
     position: relative;
-    transform: skew(-45deg, 20deg);
-    left: 15%;
-    box-shadow: 20px 20px 20px #999;
-    z-index: 0;
+    font-size: 1.8vw;
+    letter-spacing: 0.5vw;
+    z-index: 2;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.8),0 0 4px rgba(0, 0, 0, 0.8),0 0 6px rgba(0, 0, 0, 0.8),;
 }
 
-.jswebart_work:after,
-.jswebart_work:before {
-    content: '';
-    background: #0a0a0a;
+.one_half {
     position: absolute;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    z-index: 0;
+    left: 2.4vw;
+    font-size: 5vw;
+    top: -1.8vw;
+    color: var(--brand-color);
+    z-index: -1;
+    rotate: 15deg;
 }
 
-.jswebart_work:after {
-    width: 100%;
-    height: 2vw;
-    left: 1vw;
-    bottom: 0;
-    transform: translatey(100%) skewx(45deg);
-}
-
-.jswebart_work:before {
-    width: 2vw;
-    height: 100%;
-    right: 0;
-    transform: translatex(100%) skewy(45deg);
-    top: 1vw;
+.second_half {
+    position: absolute;
+    left: 3.9vw;
+    font-size: 5vw;
+    bottom: -3.4vw;
+    color: var(--blue-color);
+    z-index: -1;
+    rotate: -15deg;
 }
 
 /* FEATURED SECTION */
