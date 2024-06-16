@@ -22,6 +22,7 @@
     /* --dark_brown-color: #764248; */
     /* --blue-color: #13293d; */
     --blue-color: #1a3b5e;
+    --dark-blue-color: #152e49;
 }
 
 * {
@@ -383,7 +384,7 @@ li {
 }
 
 
-.brown {fill: var(--blue-color);}
+.brown {fill: var(--dark-blue-color);}
 
 @keyframes manfstline {
     0% {opacity: 1;}
