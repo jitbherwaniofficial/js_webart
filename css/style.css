@@ -20,7 +20,7 @@
     /* --blue-color: #1e90ff; */
     --green-color: #87ff65;
     /* --dark_brown-color: #764248; */
-    --blue-color: #afeeee;
+    --blue-color: #13293d;
 }
 
 * {
@@ -182,8 +182,9 @@ li {
     width: 3vw;
     height: 3vw;
     border-radius: 50%;
-    background-color: var(--brand-color);
-    color: var(--font-color);
+    background-color: var(--blue-color);
+    color: var(--brand-color);
+    transition: 0.5s;
 }
 
 .service_drop_link {
@@ -194,11 +195,12 @@ li {
     font-size: 1.2vw;
     padding: 1vw 0;
     font-weight: bold;
+    transition: 0.5s;
 }
 
 .service_drop_link:hover .icon_container {
-    color: var(--brand-color);
-    background-color: var(--font-color);
+    color: var(--blue-color);
+    background-color: var(--brand-color);
 }
 
 .sub_links_container {
