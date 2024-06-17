@@ -23,6 +23,7 @@
     /* --blue-color: #13293d; */
     --blue-color: #1a3b5e;
     --dark-blue-color: #0d253f;
+    --font-merienda:"Merienda", cursive;
 }
 
 * {
@@ -643,18 +644,48 @@ li {
 /* HERO ******************************************************* */
 
 /* FEATURED SECTION */
-.our_work_section {
+.jswebart_brand {
     width: 80%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     padding: 10vw 0;
 }
 
+.jswebart_brand_title {
+    width: 100%;
+    color: var(--brand-color);
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+}
+
+.jswebart_brand_para {
+    color: var(--font-color);
+    font-size: 2.7vw;
+    line-height: 1.3;
+    width: 85%;
+    margin-top: 1vw;
+}
+
+.jswebart_brand_para_two {
+    /* width: 35%; */
+    padding-top: 2vw;
+    font-size: 1.8vw;
+    width: 60%;
+    transform: translateX(30vw);
+    color: #bbb;
+}
+
+.jswebart_brand_para_two span{
+    color: var(--brand-color);
+}
 figure {
     width: 80%;
     margin: 0 auto;
+    border-radius: 2vw;
+    padding-left: 5vw;
+    padding-top: 8vw;
 }
 .card_one {
     transform: skew(-40deg, 20deg);
