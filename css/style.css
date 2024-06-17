@@ -669,26 +669,67 @@ li {
 }
 
 .jswebart_brand_para_two {
-    /* width: 35%; */
     padding-top: 2vw;
     font-size: 1.8vw;
-    width: 60%;
-    transform: translateX(30vw);
+    width: 100%;
     color: #bbb;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.jswebart_brand_para_two span{
+.jswebart_brand_para_two span {
+    width: 60%;
+
+}
+
+.jswebart_brand_para_two .span2{
     color: var(--brand-color);
+    font-weight: normal;
 }
 .brand_image_container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     border-radius: 2vw;
-    padding-left: 5vw;
-    padding-top: 8vw;
+    padding-top: 10vw;
 }
 .card_one {
+    position: relative;
+    z-index: 5;
     transform: skew(-40deg, 20deg);
+}
+.card_two {
+    position: relative;
+    z-index: 4;
+    transform: skew(-40deg, 20deg);
+}
+.card_three {
+    position: relative;
+    z-index: 3;
+    transform: skew(-40deg, 20deg);
+}
+.card_four {
+    position: relative;
+    z-index: 2;
+    transform: skew(-40deg, 20deg);
+}
+.card_five {
+    position: relative;
+    z-index: 1;
+    transform: skew(-40deg, 20deg);
+}
+
+.main_brand_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5vw;
 }
 /* FEATURED SECTION */
 
