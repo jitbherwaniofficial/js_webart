@@ -727,9 +727,17 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 5vw;
+}
+.main_image{
+    /* box-shadow:  0 0 5px #000, 0 0 10px #111, 0 0 15px #222; */
+    transition: all 0.5s;
+
+}
+.main_image:hover{
+    transform: translateY(0.5vw);
 }
 /* FEATURED SECTION */
 
