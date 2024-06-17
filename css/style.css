@@ -680,7 +680,7 @@ li {
 .jswebart_brand_para_two span{
     color: var(--brand-color);
 }
-figure {
+.brand_image_container {
     width: 80%;
     margin: 0 auto;
     border-radius: 2vw;
