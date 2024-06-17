@@ -5,8 +5,8 @@
 
 :root {
     /* --background-color:#0a0a0a; */
-    /* --background-color:#000011; */
-    --background-color: #141414;
+    --background-color:#000000;
+    /* --background-color: #141414; */
     --font-color: #ffffff;
     /* --brand-color:#00fa9a; */
     /* --brand-color : #ef0d33; */
@@ -102,6 +102,16 @@ li {
 
 }
 
+.logo_anchor {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_anchor img {
+    width: 12vw;
+}
+
 .logo {
     position: relative;
     font-size: 2vw;
@@ -112,6 +122,7 @@ li {
     font-family: "Merienda", cursive;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 0 4px rgba(0, 0, 0, 0.8);
     z-index: 3;
+    width: 50%;
 }
 
 .j {
@@ -702,16 +713,16 @@ li {
 .jswebart_logo {
     position: relative;
     left: 20%;
-    width: 18vw;
-    height: 45vh;
+    width: 25vw;
+    height: 60vh;
     background-color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: skew(-40deg, 30deg);
+    /* transform: skew(-40deg, 30deg); */
 
-    box-shadow: 3px 3px 3px rgba(119, 119, 119, 0.8), 6px 6px 6px rgba(119, 119, 119, 0.6), 10px 10px 10px rgba(119, 119, 119, 0.4);
-
+    /* box-shadow: 3px 3px 3px rgba(119, 119, 119, 0.8), 6px 6px 6px rgba(119, 119, 119, 0.6), 10px 10px 10px rgba(119, 119, 119, 0.4); */
+    box-shadow: rgba(119, 119, 119, 0.8) 0px 3px 6px, rgba(119, 119, 119, 0.6) 0px 3px 6px;
 }
 
 .work_logo {
@@ -728,7 +739,7 @@ li {
     position: absolute;
     left: 2.4vw;
     font-size: 5vw;
-    top: -1.8vw;
+    top: -2vw;
     color: var(--brand-color);
     z-index: -1;
     rotate: 15deg;
@@ -736,15 +747,15 @@ li {
 
 .second_half {
     position: absolute;
-    left: 3.9vw;
+    left: 4.2vw;
     font-size: 5vw;
-    bottom: -3.4vw;
+    bottom: -3vw;
     color: var(--blue-color);
     z-index: -1;
     rotate: -15deg;
 }
 
-/* .jswebart_front {
+.jswebart_front {
     position: relative;
     top: -12vw;
     left: 50%;
@@ -758,46 +769,6 @@ li {
     transform: skew(-40deg, 30deg);
     
     box-shadow: 3px 3px 3px rgba(119, 119, 119,0.8), 6px 6px 6px rgba(119, 119, 119,0.6), 10px 10px 10px rgba(119, 119, 119,0.4);
-} */
-
-.jswebart_front {
-    background: black;
-    width: 18vw;
-    height: 45vh;
-    position: relative;
-    transform: skew(-40deg, 30deg);
-    top: -12vw;
-    left: 50%;
-    background-color: #111;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    box-shadow: 5px 5px 5px rgba(119, 119, 119,0.8), 10px 10px 10px rgba(119, 119, 119,0.6), 18px 18px 18px rgba(119, 119, 119,0.4);
-}
-
-.jswebart_front:after,
-.jswebart_front:before {
-    content: '';
-    background: #333;
-    position: absolute;
-}
-
-.jswebart_front:after {
-    width: 100%;
-    height: 1vw;
-    left: 0.5vw;
-    bottom: 0;
-    transform: translatey(100%) skewx(45deg);
-}
-
-.jswebart_front:before {
-    width: 10px;
-    height: 100%;
-    right: 0;
-    transform: translatex(100%) skewy(45deg);
-    top: 0.5vw;
 }
 
 /* FEATURED SECTION */
