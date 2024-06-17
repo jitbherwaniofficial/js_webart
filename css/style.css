@@ -192,8 +192,8 @@ li {
     font-weight: bold;
     padding: 1vw 0;
     transition: 0.5s;
-    letter-spacing: 0.1vw;
-    text-transform: uppercase;
+    letter-spacing: 0.05vw;
+    /* text-transform: uppercase; */
     border-bottom: 1px solid var(--font-color);
 }
 
@@ -686,6 +686,13 @@ li {
     color: var(--brand-color);
     font-weight: normal;
 }
+
+.rejected_logos_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
 .brand_image_container {
     width: 100%;
     margin: 0 auto;
@@ -728,16 +735,34 @@ li {
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    padding-top: 5vw;
+    margin-top: 5vw;
+    /* border: 2px solid red; */
 }
 .main_image{
     /* box-shadow:  0 0 5px #000, 0 0 10px #111, 0 0 15px #222; */
     transition: all 0.5s;
 
 }
-.main_image:hover{
+/* .main_image:hover{
     transform: translateY(0.5vw);
+} */
+
+.brand_story1 {
+    font-size: 5.7vw;
+    margin-top: 5vw;
+    width: 100%;
+    color: var(--blue-color);
 }
+
+.brand_story_para {
+    font-size: 1.8vw;
+    color: #ddd;
+    width: 30%;
+    text-transform: uppercase;
+    letter-spacing: 0.05vw;
+    padding-bottom: 3vw;
+}
+
 /* FEATURED SECTION */
 
 /* MAIN *********************************************************** */
