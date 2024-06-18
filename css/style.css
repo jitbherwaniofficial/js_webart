@@ -697,12 +697,13 @@ li {
 }
 
 .rejected {
-    transition: 0.5s;
+    transition: 0.4s;
     border-radius: 1vw;
+    cursor: pointer;
 }
 
 .rejected:hover{
-    box-shadow: rgba(255, 255, 255,0.8) 0 0 6px,rgba(255, 255, 255,0.6) 0 0 12px;
+    box-shadow: var(--light-gray) 0px 1px 8px, var(--light-gray) 0px 2px 15px, var(--light-gray) 0px 3px 22px;
     transform: translateY(-0.1vw);
 }
 
@@ -749,11 +750,12 @@ li {
     width: 95.5%;
     margin: 0 auto;
     margin-top: 5vw;
+    cursor: grab;
     /* border: 2px solid red; */
 }
 .main_image{
     box-shadow: rgba(255, 104, 18,0.95) 0px 0px 7px, rgba(255, 104, 18,0.85) 0px 0px 13px, 
-    rgba(255, 104, 18,0.75) 0px 0px 18px, rgba(255, 104, 18,0.65) 0px 0px 25px;
+    rgba(255, 104, 18,0.75) 0px 0px 21px;
     
     transition: all 0.5s;
 
@@ -781,6 +783,14 @@ li {
     text-transform: uppercase;
     letter-spacing: 0.05vw;
     padding-bottom: 3vw;
+}
+
+.shirts_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    width: 100%;
 }
 
 /* FEATURED SECTION */
