@@ -765,16 +765,57 @@ li {
     rgba(255, 104, 18,0.75) 0px 0px 18px, rgba(255, 104, 18,0.65) 0px 0px 25px, rgba(255, 104, 18,0.55) 0px 0px 30px;
     transform: scale(1.01);
 }
-/* .main_image:hover{
-    transform: translateY(0.5vw);
-} */
+
+.jswebart_brand_representation {
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.7vw;
+    color: var(--gray-color);
+}
+
 
 .brand_story1 {
     font-size: 5.7vw;
     margin-top: 5vw;
     width: 100%;
     color: var(--blue-color);
+    position: relative;
 }
+
+.brand_story1::after {
+    content: "";
+    position: absolute;
+    width: 87%;
+    height: 2px;
+    color: var(--dark-gray);
+    background-color: var(--dark-gray);
+    top: 50%;
+    left: 10%;
+}
+
+.brand_story2 {
+    font-size: 5.7vw;
+    margin-top: 5vw;
+    width: 100%;
+    color: var(--blue-color);
+    position: relative;
+    text-align: end;
+}
+
+.brand_story2::before {
+    content: "";
+    position: absolute;
+    width: 87%;
+    height: 2px;
+    color: var(--dark-gray);
+    background-color: var(--dark-gray);
+    top: 50%;
+    left: 0;
+}
+
 
 .brand_story_para {
     font-size: 1.8vw;
@@ -785,11 +826,27 @@ li {
     padding-bottom: 3vw;
 }
 
+.brand_story_para2 {
+    font-size: 1.8vw;
+    color: #ddd;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.05vw;
+    padding-bottom: 3vw;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brand_story_para2 span {
+    width: 30%;
+}
+
 .shirts_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5vw;
+    margin-top: 3vw;
     width: 100%;
 }
 
