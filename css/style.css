@@ -690,6 +690,8 @@ li {
 
 .rejected_logos_container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 2vw;
 }
@@ -734,7 +736,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 95.5%;
     margin: 0 auto;
     margin-top: 5vw;
     /* border: 2px solid red; */
