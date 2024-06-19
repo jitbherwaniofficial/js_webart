@@ -95,7 +95,7 @@ li {
 /* .header.active */
 
 .header_wrapper {
-    width: 80%;
+    width: 85%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -152,19 +152,20 @@ li {
 
 .dropdown2 {
     position: absolute;
+    max-height: 60vh;
     left: 100%;
     width: 16vw;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     transition: 0.5s ease;
     background-color: var(--dark-gray);
+    overflow: auto;
 }
 
 
 
 .dropdown2 .sub_links {
-    padding: 1vw 2vw;
+    padding: 1vw 1.5vw;
     transition: 0.5s ease;
     display: none;
     font-size: 1.1vw;
@@ -309,7 +310,7 @@ li {
 
 /* HERO ******************************************************* */
 .hero_section {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 5vw 0;
     display: flex;
@@ -830,6 +831,14 @@ li {
     margin-top: 3vw;
     width: 100%;
 }
+
+.coffee_mug_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* FEATURED SECTION */
 
