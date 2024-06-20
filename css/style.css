@@ -875,6 +875,7 @@ li {
     left: 20%;
     font-size: 1.5vw;
     color: #ddd;
+    background-color: var(--background-color);
 }
 
 /* FEATURED SECTION */
