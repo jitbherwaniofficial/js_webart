@@ -829,16 +829,15 @@ li {
     justify-content: center;
     align-items: center;
     margin-top: 3vw;
-    width: 100%;
+    width: 50%;
 }
 
-.coffee_mug_container {
-    width: 100%;
+.cup_container {
+    width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
-
 
 /* FEATURED SECTION */
 
