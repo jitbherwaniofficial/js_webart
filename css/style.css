@@ -37,6 +37,7 @@
 body {
     background-color: var(--background-color);
     color: var(--font-color);
+    overflow-x: hidden;
     /* caret-color: var(--brand-color); */
 
 }
@@ -755,7 +756,7 @@ li {
     align-items: center;
     width: 100%;
     font-size: 1.7vw;
-    color: var(--gray-color);
+    color: #ccc;
 }
 
 
@@ -1030,6 +1031,164 @@ li {
     background-color: var(--background-color);
 }
 
+
+.brand_story4 {
+    font-size: 5.7vw;
+    margin-top: 5vw;
+    width: 100%;
+    color: var(--blue-color);
+    position: relative;
+    text-align: end;
+}
+
+.brand_story4::before {
+    content: "";
+    position: absolute;
+    width: 87%;
+    height: 2px;
+    color: var(--dark-gray);
+    background-color: var(--dark-gray);
+    top: 50%;
+    left: 0;
+}
+
+
+.brand_story_para4 {
+    font-size: 1.8vw;
+    color: #ddd;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.05vw;
+    padding-bottom: 3vw;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brand_story_para4 span{
+    width: 30%;
+}
+
+
+.flyers_and_para_container {
+    position: relative;
+}
+.abs1 {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 40%;
+    transform: skew(20deg, 0deg) rotate(-45deg) translateX(-10vw);
+    opacity: 0.3;
+}
+.abs3 {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 40%;
+    right: 70%;
+    transform: skew(20deg, 0deg) rotate(180deg) translateY(5vw);
+    opacity: 0.3;
+}
+.abs4 {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 70%;
+    right: 70%;
+    transform: skew(-40deg, 20deg) rotate(0deg) translateX(1vw);
+    opacity: 0.3;
+}
+.flyers_container {
+    width: 80%;
+   transform: translatex(24vw);
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6vw auto 10vw auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.flyers_para {
+    position: absolute;
+    width: 38%;
+    top: 10%;
+    font-size: 1.7vw;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.flyers {
+    width: 25%;
+    height: 55%;
+    transform: skewY(15deg) scale(0.8);
+    border-top: 5px solid var(--dark-gray);
+    border-right: 5px solid var(--dark-gray);
+   
+    -webkit-box-shadow: 88px 10px 39px -35px rgba(0,0,0,0.6);
+    -moz-box-shadow: 88px 10px 39px -35px rgba(0,0,0,0.6);
+    box-shadow: 88px 10px 39px -35px rgba(0,0,0,0.6);
+   
+}
+
+.fly1 {
+    position: relative;
+    z-index: 4;
+    right: -4vw;
+    bottom: -7vw;
+}
+
+.fly2 {
+    position: relative;
+    z-index: 3;
+    bottom: -2vw;
+    left: -2vw;
+
+}
+
+.fly3 {
+    position: relative;
+    z-index: 2;
+    bottom: 2vw;
+    left: -8vw;
+}
+
+.fly4 {
+    position: relative;
+    z-index: 1;
+    bottom: 6vw;
+    left: -14vw;
+}
+
+.fly5 {
+    position: relative;
+    z-index: 6;
+    left: 4vw;
+    top: 5vw;
+}
+
+.fly6 {
+    position: relative;
+    z-index: 5;
+    top: 0vw;
+    left: -2vw;
+}
+
+.fly7 {
+    position: relative;
+    z-index: 4;
+    left: -8vw;
+    top: -4vw;
+}
+
+.fly8 {
+    position: relative;
+    z-index: 3;
+    left: -14vw;
+    top: -8vw;
+}
 /* FEATURED SECTION */
 
 /* MAIN *********************************************************** */
