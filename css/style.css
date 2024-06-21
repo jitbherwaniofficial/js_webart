@@ -1105,7 +1105,7 @@ li {
    
     display: flex;
     flex-wrap: wrap;
-    margin: 6vw auto 10vw auto;
+    margin: 8vw auto 10vw auto;
     display: flex;
     justify-content: center;
     align-items: center;;
@@ -1114,7 +1114,7 @@ li {
 .flyers_para {
     position: absolute;
     width: 38%;
-    top: 10%;
+    top: 4%;
     font-size: 1.7vw;
     line-height: 1.5;
     color: #ccc;
