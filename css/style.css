@@ -1239,6 +1239,9 @@ transition: all 0.5s;
 .service-box:hover{
     background-color: var(--dark-blue-color);
     transform: translateY(-0.35vw) scale(1.045);
+    -webkit-box-shadow: 0px 52px 25px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 52px 25px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 52px 25px -6px rgba(0,0,0,0.75);
 }
 .service-box:hover img{
     transform: rotate(5deg);
