@@ -1018,6 +1018,8 @@ li {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-bottom: -6vw;
+    margin-top: 2vw;
 }
 
 .cup_para {
@@ -1189,6 +1191,28 @@ li {
     left: -14vw;
     top: -8vw;
 }
-/* FEATURED SECTION */
+/*SRVICE SECTION */
+.service-container{
+    width: 100%;
+   padding: 1vw 0 7vw 0;
+    
+}
+
+.service-box-container{
+    margin: 8vw auto 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.service-box{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 /* MAIN *********************************************************** */
