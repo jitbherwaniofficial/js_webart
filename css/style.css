@@ -8,7 +8,6 @@
   --font-color: #ffffff;
 
   --brand-color: #ff6812;
-  --blue-color: #00008d;
 
   --brand-secondary-color: #bf0a29;
   --brand-third-color: #f23d5c;
@@ -20,7 +19,7 @@
 
   /* --blue-color: #13293d; */
   /* --blue-color: #1a3b5e; */
-  /* --blue-color: #0d253f; */
+  --blue-color: #0d253f;
   --font-merienda: "Merienda", cursive;
 }
 
