@@ -1628,9 +1628,9 @@ span {
   
 .tool_container {
     width: 100%;
-    border-top: 2px solid var(--dark-gray);
+    /* border-top: 2px solid var(--dark-gray); */
     margin: 0 auto;
-    margin-top: 9vw;
+    margin-top: 7.5vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -1644,7 +1644,7 @@ span {
 }
 
 .left_tool_container {
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -1653,26 +1653,30 @@ span {
 
 .right_tool_container {
     width: 50%;
+    padding-top: 1vw;
+/* border: 2px solid red; */
 }
 
 .tool_head {
-    padding-top: 5vw;
-    width: 85%;
-    margin: 0 auto;
+    /* padding-top: 5vw; */
+    width: 50%;
+    /* margin: 0 auto; */
     text-align: start;
     color: var(--brand-color);
-    font-size: 1.6vw;
+    font-size: 1.7vw;
     text-transform: uppercase;
     letter-spacing: 0.1vw;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
 }
 
 .tool_para {
     text-align: start;
     color: var(--font-color);
-    font-size: 2.55vw;
+    font-size: 2.295vw;
     line-height: 1.3;
-    padding-left: 2vw;
+    /* padding-left: 2vw; */
+    /* padding-top: 1.5vw; */
+    letter-spacing: 0.05vw;
 }
 
 .tools_image_container {
@@ -1682,11 +1686,11 @@ span {
     
     justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 2.25vw;
 }
 
 .tools_image_container img {
-    width: 19%;
+    width: 15.8%;
     opacity: 0.4;
     transition: all .5s;
     cursor: pointer;
