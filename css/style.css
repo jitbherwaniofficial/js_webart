@@ -1719,6 +1719,19 @@ span {
     text-transform: uppercase;
     letter-spacing: 0.1vw;
     font-weight: 600;
+    transition: 0.5s;
+}
+.about_head a{
+    color: inherit;
+}
+.about_head i{
+    margin-left: 0.5vw;
+    font-size: 2vw;
+}
+.about_head:hover i{
+    transform: translate(0.6vw, -0.6vw);
+
+
 }
 .about_first_para{
     width: 85%;
@@ -1730,12 +1743,14 @@ span {
     padding-top: 2vw;
     
 }
+
 .about_banner {
     width: 85%;
     /* height: 30vw; */
     margin:  5vw auto;
     padding: 4vw;
-    background-color: var(--dark-gray);
+    /* background-color: var(--dark-gray); */
+    background-color: #192c41;
     border-radius: 2vw;
     display: flex;
     justify-content: center;
@@ -1746,9 +1761,9 @@ span {
 }
 
 .about_second_para {
-    font-size: 1.65vw;
-    line-height: 1.45;
-    letter-spacing: 0.05vw;
+    font-size: 1.6vw;
+    line-height: 1.65;
+    letter-spacing: 0.06vw;
     width: 60%;
 
 }
@@ -1788,7 +1803,7 @@ span {
     right: 0;
     position: absolute;
     z-index: -1;
-    opacity: 0.75;
+    opacity: 0.8;
 }
 
 /* MAIN *********************************************************** */
