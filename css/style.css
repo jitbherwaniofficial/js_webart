@@ -1778,7 +1778,7 @@ span {
     border-radius: 0.2vw;
 }
 
-.Know_us:hover::before {
+.collab:hover::before {
     transform: translateX(0);
 }
 
