@@ -5,6 +5,7 @@
 
 :root {
   --background-color: #141414;
+  
   --font-color: #ffffff;
 
   --brand-color: #ff6812;
@@ -1300,8 +1301,8 @@ span {
 /* WORK SLIDER */
 .slider_container {
   position: relative;
-  width: 60%;
-  height: 35vw;
+  width: 55%;
+  height: 30vw;
   margin: 8vw auto;
   perspective: 80vw;
   transform-style: preserve-3d;
