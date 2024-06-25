@@ -2333,7 +2333,6 @@ input[type="radio"]:checked {
   font-size: 1.2vw;
   text-transform: uppercase;
   color: var(--brand-color);
-  padding-bottom: 1vw;
   letter-spacing: 0.1vw;
 }
 
@@ -2344,12 +2343,16 @@ input[type="radio"]:checked {
   border-bottom: 1px solid var(--dark-gray);
 }
 
+.pad-0 {padding-bottom: 0;}
+
 .service_name {
   width: 100%;
-  font-size: 1.2vw;
+  font-size: 1vw;
   text-transform: uppercase;
   padding-bottom: 1vw;
+  letter-spacing: 0.2vw;
 }
+
 
 .service_sub_links {
   display: flex;
