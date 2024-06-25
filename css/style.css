@@ -2389,6 +2389,6 @@ input[type="radio"]:checked {
 }
 
 
-.footer_right {
+.footer_right a {
   color: var(--brand-color);
 }
