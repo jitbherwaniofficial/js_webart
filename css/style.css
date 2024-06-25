@@ -660,6 +660,7 @@ span {
   letter-spacing: 0.1vw;
   padding-top: 1vw;
   width: 90%;
+  margin: 0 auto;
   text-align: center;
 }
 
